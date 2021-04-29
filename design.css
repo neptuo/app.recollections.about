@@ -1,0 +1,101 @@
+body {
+    min-width: 408px;
+}
+
+.body {
+    padding-bottom: 6rem;
+    background: url('img/background.jpeg') center;
+    background-size: cover;
+}
+
+.intro {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.intro img {
+    margin-bottom: 2rem;
+}
+
+.intro h1 {
+    font-size: 4rem;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        margin-top: 6rem;
+    }
+
+    .intro h1 {
+        font-size: 7rem;
+    }
+
+    .intro img {
+        margin-bottom: 7rem;
+    }
+}
+
+.content {
+    margin-top: 2rem;
+}
+
+.content .card {
+    transition: all ease-in 100ms;
+    background-color: #ffffffdd;
+}
+
+.content .card:hover {
+    background-color: #fff;
+}
+
+.content .card h2 span {
+    display: block;
+    color: salmon;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #aaa !important;
+}
+
+.footer .card {
+    background-color: #ffffffdd;
+}
+
+.footer a {
+    color: #aaa !important;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* First page cover */
+@media (min-width: 768px) {
+    .intro {
+        height: calc(100vh);
+        position: relative;
+    }
+
+    .intro img {
+        position: sticky;
+        top: 3rem;
+        margin-bottom: 12rem;
+    }
+
+    .intro .brand-name {
+        position: sticky;
+        top: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .content {
+        margin-top: 0;
+    }
+}
