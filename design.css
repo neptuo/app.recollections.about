@@ -55,6 +55,25 @@ body {
     color: salmon;
 }
 
+.actions-buttons {
+    margin-top: 4rem;
+}
+
+.btn-salmon {
+    color: white;
+    border-color: salmon;
+    background-color: salmon; 
+}
+
+.btn-salmon:focus, .btn-salmon:hover {
+    box-shadow: 0 0 0 0.2rem rgba(250, 128, 114, 0.25); 
+}
+
+.btn-salmon:hover {
+    color: white;
+    background-color: #e87563; 
+}
+
 .footer {
     margin-top: 2rem;
     margin-bottom: 2rem;
